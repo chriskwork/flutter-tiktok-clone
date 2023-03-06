@@ -18,6 +18,7 @@ class TikTokApp extends StatelessWidget {
         primaryColor: const Color(0xFFE9435A),
         useMaterial3: true,
         appBarTheme: const AppBarTheme(
+          centerTitle: true,
           titleTextStyle: TextStyle(
             fontSize: Sizes.size14,
             fontWeight: FontWeight.w600,
